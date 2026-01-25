@@ -389,6 +389,13 @@ body {
     flex-wrap: wrap;
 }
 
+.cta-note {
+    margin-top: 24px;
+    font-size: 0.9rem;
+    color: var(--gray-200);
+    line-height: 1.6;
+}
+
 /* Footer */
 .footer {
     padding: 60px 0 30px;
