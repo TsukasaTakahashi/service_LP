@@ -183,6 +183,13 @@ body {
     flex-wrap: wrap;
 }
 
+.hero-note {
+    margin-top: 24px;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
 /* Problem Section */
 .problem {
     padding: 100px 0;

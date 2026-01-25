@@ -1,6 +1,20 @@
 # 引き継ぎドキュメント
 
-## 最終更新: 2026-01-01
+## 最終更新: 2026-01-19
+
+---
+
+## 🚀 次のタスク（作業開始して、と言われたらこれ）
+
+**課金動線の設計・実装**
+
+詳細は「5. 次にやること：課金動線の設計・実装」を参照。
+
+やること：
+1. 画面遷移図の作成
+2. DB設計（usersテーブル）
+3. 機能要件の詳細化
+4. 外注向け設計ドキュメント作成
 
 ---
 
@@ -17,8 +31,11 @@
 ### オビカエLP
 - **URL:** https://obikae.arealinks.jp/
 - **GitHub:** git@github.com:TsukasaTakahashi/service_LP.git
-- **ホスティング:** Vercel
+- **ホスティング:** Vercel（GitHubにpushすると自動デプロイ）
 - **ドメイン:** お名前.comで管理（DNSでVercelに向けている）
+- **お問い合わせ:** Google Form https://forms.gle/3j1pUDLTDQXMdPpS7
+  - 個人Gmailアカウントで作成（Workspace制限回避のため）
+  - 項目: お名前（必須）、会社名、メールアドレス（必須）、電話番号、お問い合わせ内容（必須）
 
 ### YouTube動画
 - **URL:** https://youtu.be/Jt7k1riVoxo
@@ -29,8 +46,9 @@
 - SERVICEセクションにオビカエを追加（YouTube埋め込み + 説明文 + LPへのリンク）
 
 ### オビカエサービス本体
-- **URL:** https://sumai-agent-unified-api-dev-youta-eduqdyu7lq-uw.a.run.app/business/image_changer/index
+- **URL:** https://api-front-image-changer-837157351927.us-west1.run.app/bq/index
 - 不動産図面の帯をAIで自動差し替えするサービス
+- LPの「無料で試す」ボタンからリンク
 
 ---
 
@@ -198,10 +216,16 @@ dig CNAME firebase2._domainkey.arealinks.jp +short
 
 ---
 
-## 10. 次のセッションで最初に伝えること
+## 10. 今回のセッション（2026-01-19）での変更
+
+- お問い合わせをmailto:からGoogle Formに変更
+- Google FormはWorkspace制限を避けるため個人Gmailで作成
+- サービス本体のURLを新エンドポイントに更新
+
+---
+
+## 11. 次のセッションで最初に伝えること
 
 ```
-前回のセッションで、オビカエのLPとHP更新を完了しました。
-次は課金動線の設計を進めたいです。
 引き継ぎドキュメントは /Users/tsukasa/Arealinks/HP/HANDOVER.md にあります。
 ```
